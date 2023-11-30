@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Section Component Test Card Section should loaded successfully 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "alignItems": "center",
+      "paddingRight": 25,
+    }
+  }
+  data={
+    [
+      {
+        "accountNo": "232323232323",
+        "balance": 23000,
+        "id": 1,
+        "logo": {
+          "testUri": "../../../assets/cards/mc.png",
+        },
+      },
+      {
+        "accountNo": "232323232324",
+        "balance": 22000,
+        "id": 2,
+        "logo": {
+          "testUri": "../../../assets/cards/mc.png",
+        },
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  stickyHeaderIndices={[]}
+  style={
+    {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingBottom": 15,
+      "paddingLeft": 15,
+      "width": "100%",
+    }
+  }
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "backgroundColor": "#fbcd77",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "height": "75%",
+            "marginRight": 25,
+            "overflow": "hidden",
+            "width": 502.50000000000006,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            {
+              "testUri": "../../../assets/bgs/background_transparent.png",
+            }
+          }
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": "75%",
+                "width": 502.50000000000006,
+              },
+              undefined,
+            ]
+          }
+          testID="cardItem"
+        />
+        <View
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "height": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingBottom": 30,
+                "paddingLeft": 30,
+                "paddingRight": 30,
+                "paddingTop": 30,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#d1d5db",
+                      "fontSize": 15,
+                      "fontWeight": "bold",
+                      "textAlign": "left",
+                    },
+                    {
+                      "color": "#fff",
+                    },
+                  ]
+                }
+              >
+                ***** 
+                2323
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 3,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#d1d5db",
+                        "fontSize": 13,
+                        "textAlign": "left",
+                      },
+                      {
+                        "color": "#f3f4f6",
+                        "marginBottom": 5,
+                      },
+                    ]
+                  }
+                >
+                  Total Balance
+                </Text>
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#d1d5db",
+                        "fontSize": 15,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      },
+                      {
+                        "color": "#f3f4f6",
+                        "fontSize": 19,
+                      },
+                    ]
+                  }
+                >
+                  23000
+                </Text>
+              </View>
+              <Image
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../assets/cards/mc.png",
+                  }
+                }
+                style={
+                  {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+                testID="logo"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "backgroundColor": "#fbcd77",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "height": "75%",
+            "marginRight": 25,
+            "overflow": "hidden",
+            "width": 502.50000000000006,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            {
+              "testUri": "../../../assets/bgs/background_transparent.png",
+            }
+          }
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": "75%",
+                "width": 502.50000000000006,
+              },
+              undefined,
+            ]
+          }
+          testID="cardItem"
+        />
+        <View
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "height": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingBottom": 30,
+                "paddingLeft": 30,
+                "paddingRight": 30,
+                "paddingTop": 30,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#d1d5db",
+                      "fontSize": 15,
+                      "fontWeight": "bold",
+                      "textAlign": "left",
+                    },
+                    {
+                      "color": "#fff",
+                    },
+                  ]
+                }
+              >
+                ***** 
+                2323
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 3,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#d1d5db",
+                        "fontSize": 13,
+                        "textAlign": "left",
+                      },
+                      {
+                        "color": "#f3f4f6",
+                        "marginBottom": 5,
+                      },
+                    ]
+                  }
+                >
+                  Total Balance
+                </Text>
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#d1d5db",
+                        "fontSize": 15,
+                        "fontWeight": "bold",
+                        "textAlign": "left",
+                      },
+                      {
+                        "color": "#f3f4f6",
+                        "fontSize": 19,
+                      },
+                    ]
+                  }
+                >
+                  22000
+                </Text>
+              </View>
+              <Image
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../assets/cards/mc.png",
+                  }
+                }
+                style={
+                  {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+                testID="logo"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
